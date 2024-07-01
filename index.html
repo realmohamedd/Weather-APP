@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg py-4 bg-dark">
+        
+            <div class="container  ">
+                <a class="navbar-brand d-flex" href="#">
+                    <div class="img me-2 mt-2">
+                        <img src="imgs/logo.png" alt="logo" class="logo">
+
+                    </div>
+                    <div class="head-discrp">
+                        <h1>Weather</h1>
+                        <p class="site-description ">tagline goes here</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon thre"><i class="fa-solid fa-bars mt-2"></i></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item  me-3 ">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link "  href="#">News</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link "  href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link "  href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link "  href="#">Contact</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+        
+      
+    </nav>
+
+    <!-- End Navbar -->
+    <!-- Start header -->
+    
+    <section class="header ">
+      <div class="container">
+        <div class="bg-content pb-5 pt-5">
+          <div class="mb-3 position-relative">
+              
+              <input type="text" class="form-control find" id="npt_search" placeholder="Find Your Location..">
+              <button type="submet" class="btn btn_find btn-primary px-5">Find</button>
+          </div>
+            
+      </div>
+      
+        <div class="info rounded-3 "> 
+          <div class="row g-0" id="info-weather">
+           
+          </div>
+        </div> 
+      </div>
+    </section>
+
+
+
+
+    <!-- End Header -->
+     <!-- start footer -->
+
+     <footer class="footer">
+        <div class="container   ">
+          <div class="row py-5 ">
+            <div class="col-lg-8">
+              <div class="position-relative mb-3 me-5 ">
+                    
+                <input type="email" class="form-control sub " id="exampleFormControlInput1" placeholder="Enter your email to subscribe..">
+                <button type="submet" class="btn btn-primary px-5">Subscribe</button>
+            </div>
+            </div>
+           <div class="col-lg-4">
+            <div class="icons  mb-3 d-flex ">
+             <div class="icon-border me-2">
+              <a href="#"> <i class="fa-brands fa-facebook p-2"></i></a>
+             </div>
+              <div  class="icon-border me-2">
+                <a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
+              </div>
+              <div  class="icon-border me-2">
+                <a href="#"><i class="fa-brands fa-goodreads-g p-2"></i></a>
+              </div>
+             <div  class="icon-border me-2">
+              <a href="#"><i class="fa-solid fa-p p-2"></i></a>
+             </div>
+              
+             
+            </div>
+           </div>
+           <div>
+            <p class="">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+          </div>
+       
+        </div>
+        
+
+     </footer>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
